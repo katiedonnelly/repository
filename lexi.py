@@ -35,10 +35,12 @@ voterbooths=int(input('how many booths are at the polling location '))
     # print(total)
 
 something= random.randint(0,500)
-randtime = random.randint(0,900)
-current = random.randint(0,500)
-previous = random.randint(0,500)
+
 while(1==1):
+    randtime = random.randint(0, 900)
+    current = random.randint(0, 500)
+    previous = random.randint(0, 500)
+    something = random.randint(0, 500)
     diff = current - previous
     diff = abs(diff)
     if (diff>30):
